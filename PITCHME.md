@@ -3,7 +3,7 @@ Hello, World!
 +++
 
 Time for a video!
-![He-Man](https://www.youtube.com/watch?v=32FB-gYr49Y)
+![He-Man](https://www.youtube.com/embed/32FB-gYr49Y)
 
 +++
 
