@@ -2,7 +2,7 @@ Hello, World!
 
 +++
 
-[Hyperlink to slide](/#next)
+[Hyperlink to slide](/themantalope/RSNA_ML_slides/#next)
 
 +++
 
