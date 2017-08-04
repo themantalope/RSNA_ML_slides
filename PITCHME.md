@@ -2,6 +2,14 @@ Hello, World!
 
 +++
 
+[Hyperlink to slide](/#next)
+
++++
+
+<a id="next"> </a>
+
++++
+
 Time for a video!
 ![He-Man](https://www.youtube.com/embed/32FB-gYr49Y)
 
