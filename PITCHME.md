@@ -40,10 +40,9 @@
 <table>
   <tr>
     <td>**These methods are not exclusive of each other and can compliment each other!**</td>
-    <td rowspan="2"><img src="assets/images/gene_expression_regression.jpg" width="100" height="100"/></td>
+    <td rowspan="2"><img src="assets/images/gene_expression_regression.jpg"/></td>
   </tr>
   <tr>
-    <td>Example: reducing gene expression data to summarize the most important gene expression patterns of a dataset (unsupervised), which is then used to estimate survival (supervised).</td>
   </tr>
 </table>
 
