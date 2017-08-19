@@ -26,8 +26,8 @@
 #### Unsupervised and Supervised Learning
 
 | Unsupervised | Supervised |
-|------------- | -------------|
-| Item One       | Item Two       |
+|:-------------: | :-------------:|
+| * Aims to "summarize" data  | Aims to "learn" a map between input data and output |
 
 +++
 * Machine Learning Workflow
