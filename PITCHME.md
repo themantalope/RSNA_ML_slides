@@ -40,7 +40,7 @@
 <table>
   <tr>
     <td>These methods are not exclusive of each other and can compliment each other!</td>
-    <td rowspan="5"><img src="assets/images/gene_expression_regression.jpg" width=100 height=100/></td>
+    <td rowspan="5"><img src="assets/images/gene_expression_regression.jpg" alt='what' width=100 height=100/></td>
   </tr>
   <tr>
   </tr>
