@@ -38,7 +38,7 @@
 ![](assets/images/gene_expression_regression.jpg | height=100%)
 
 
-<span style="font-family: Helvetica Neue; font-weight: bold; color:#ffffff"; font-size:9><span color:##e49436"></span> GIT Pitch</span>
+<span style="font-family: Helvetica Neue; font-weight: bold; color:#ffffff; font-size:9"><span color:##e49436"></span> GIT Pitch</span>
 +++
 * Machine Learning Workflow
   * Questions, hypotheses and model choice
