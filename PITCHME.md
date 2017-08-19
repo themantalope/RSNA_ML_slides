@@ -42,12 +42,33 @@
     <td>These methods are not exclusive of each other and can compliment each other!</td>
     <td rowspan="5">text</td>
   </tr>
-  <tr>2</tr>
-  <tr>3</tr>
-  <tr>4</tr>
-  <tr>5</tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
 </table>
++++
 
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td rowspan="2">50</td>
+  </tr>
+  <tr class="fragment">
+    <td>Eve</td>
+    <td>Jackson</td>
+  </tr>
+  <tr class="fragment">
+    <td>John</td>
+    <td>Doe</td>
+  </tr>
+</table>
 
 <span style="font-family: Helvetica Neue;"><font size="1">GIT Pitch</font></span>
 +++
