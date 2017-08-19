@@ -13,8 +13,9 @@
 +++
 
 #### Unsupervised and Supervised Learning
-Unsupervised | Supervised 
-------------- | -------------
+
+|: Unsupervised | Supervised :|
+|------------- | -------------|
 | Item One       | Item Two       |
 
 +++
