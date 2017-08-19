@@ -20,14 +20,17 @@
   * Parameter Estimation
   * Training and Testing
 
-[Back to the top](https://gitpitch.com/themantalope/RSNA_ML_slides#/1/2)
 +++
 
 #### Unsupervised and Supervised Learning
 
 | Unsupervised | Supervised |
 |:-------------: | :-------------:|
-| * Aims to "summarize" data  | Aims to "learn" a map between input data and output |
+| Aims to "summarize" data  | Aims to "learn" a function between input data and output |
+| Methods to reduce dimensionality of data | Methods to train a system for prediction |
+| Clustering, Compression, Association Rules | Regression |
+
+**These methods are not exclusive of each other and can compliment each other!**
 
 +++
 * Machine Learning Workflow
