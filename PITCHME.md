@@ -1,19 +1,23 @@
 # Machine Learning: A Primer for Radiologists
 
 +++
-
-## Contents
-
-* Machine Learning Basics
-  * Unsupervised and Supervised
-  * Bias and Variance
-  * Model Specification and Training
+### Machine Learning Basics
+* Unsupervised and Supervised
+* Bias and Variance
+* Model Specification and Training
+* Training and Testing
+* Example: Linear Regression
+  * Input and Output
+  * Parameter Estimation
   * Training and Testing
-  * Example: Linear Regression
-    * Input and Output
-    * Parameter Estimation
-    * Training and Testing
++++
 
+#### Unsupervised and Supervised Learning
+<| Unsupervised | Supervised |
+| :------------- | :------------- |
+| Item One       | Item Two       |
+
++++
 * Machine Learning Workflow
   * Questions, hypotheses and model choice
   * Data organization
