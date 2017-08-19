@@ -21,7 +21,6 @@
   * Training and Testing
 
 +++
-
 #### Unsupervised and Supervised Learning
 
 | Unsupervised | Supervised |
@@ -30,8 +29,14 @@
 | Methods to reduce dimensionality of data | Methods to train a system for prediction |
 | Clustering, Compression, Association Rules | Regression |
 
-**These methods are not exclusive of each other and can compliment each other!**
++++
+#### Unsupervised and Supervised Learning
+* **These methods are not exclusive of each other and can compliment each other!**
+* Example: reducing gene expression data to summarize the most important gene expression patterns of a dataset (unsupervised), which is then used to estimate survival (supervised).
 
+![gene_expression](assets/images/gene_expression.jpg)
+
+<span style="font-family: Helvetica Neue; font-weight: bold; color:#ffffff">Citation<span color:##e49436">Git</span>Pitch</span>
 +++
 * Machine Learning Workflow
   * Questions, hypotheses and model choice
