@@ -35,7 +35,7 @@
 * Example: reducing gene expression data to summarize the most important gene expression patterns of a dataset (unsupervised), which is then used to estimate survival (supervised).
 
 
-![hmmmm](assets/images/gene_expression_regression.jpg | height=10%)
+![hmmmm](assets/images/gene_expression_regression.jpg | height=10)
 
 
 <span style="font-family: Helvetica Neue; font-weight: bold;"><font size="1">GIT Pitch</font></span>
