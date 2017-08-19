@@ -36,7 +36,7 @@
 
 <!-- ![gene_expression](assets/images/gene_expression_regression.jpg) -->
 
-![](assets/images/gene_expression_regression.jpg | height=10%)
+![](assets/images/gene_expression_regression.jpg | height=30%)
 
 <!-- <img src="assets/images/gene_expression_regression.jpg" alt="" style="height: 10%; width: 40%; object-fit: contain;"/> -->
 <span style="font-family: Helvetica Neue; font-weight: bold; color:#ffffff"; font-size:9><span color:##e49436"></span> GIT Pitch</span>
