@@ -34,7 +34,7 @@
 * **These methods are not exclusive of each other and can compliment each other!**
 * Example: reducing gene expression data to summarize the most important gene expression patterns of a dataset (unsupervised), which is then used to estimate survival (supervised).
 
-![gene_expression](assets/images/gene_expression.jpg)
+![gene_expression](assets/images/gene_expression_regression.jpg)
 
 <span style="font-family: Helvetica Neue; font-weight: bold; color:#ffffff">Citation<span color:##e49436">Git</span>Pitch</span>
 +++
@@ -74,7 +74,7 @@ Time for a video!
 +++
 
 How about a picture?
-![Image](assets/lenny.png)
+![Image](assets/images/lenny.png)
 
 +++
 
