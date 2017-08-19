@@ -5,7 +5,9 @@
 ## Contents
 
 - Machine Learning Basics
-  -
+  ..- Prediction
+  ..- Bias and Variance
+  ..- Model Specification and Training
 
 [Hyperlink to slide](/themantalope/RSNA_ML_slides/#next)
 
