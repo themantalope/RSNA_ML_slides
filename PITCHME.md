@@ -31,11 +31,13 @@
 
 +++
 #### Unsupervised and Supervised Learning
-* **These methods are not exclusive of each other and can compliment each other!**
-* Example: reducing gene expression data to summarize the most important gene expression patterns of a dataset (unsupervised), which is then used to estimate survival (supervised).
+|:---------------:|:------:|
+| **These methods are not exclusive of each other and can compliment each other!**| <img src="assets/images/gene_expression_regression.jpg" width="30%" height="10%"/> |
+| Example: reducing gene expression data to summarize the most important gene expression patterns of a dataset (unsupervised), which is then used to estimate survival (supervised). | | 
 
 
-<img src="assets/images/gene_expression_regression.jpg" width="30%" height="10%"/>
+
+
 
 
 <span style="font-family: Helvetica Neue; font-weight: bold;"><font size="1">GIT Pitch</font></span>
