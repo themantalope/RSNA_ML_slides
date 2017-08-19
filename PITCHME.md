@@ -40,15 +40,14 @@
 <table>
   <tr>
     <td>These methods are not exclusive of each other and can compliment each other!</td>
-    <td rowspan="5"><img src="assets/images/gene_expression_regression.jpg" alt='what' width=100 height=100/></td>
+    <td rowspan="5"><img src="assets/images/gene_expression_regression.jpg" alt='what' width="100" height="100"/></td>
   </tr>
   <tr>
   </tr>
 </table>
 
 
-
-<span style="font-family: Helvetica Neue; font-weight: bold;"><font size="1">GIT Pitch</font></span>
+<span style="font-family: Helvetica Neue;"><font size="1">GIT Pitch</font></span>
 +++
 * Machine Learning Workflow
   * Questions, hypotheses and model choice
