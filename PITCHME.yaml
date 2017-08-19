@@ -1,2 +1,3 @@
 slide-number: true
-footnote : " [Back to the top](https://gitpitch.com/themantalope/RSNA_ML_slides#/1/2) "
+# footnote : " [Back to the top](https://gitpitch.com/themantalope/RSNA_ML_slides#/1/2) "
+footnote : <html><a href="https://gitpitch.com/themantalope/RSNA_ML_slides#/1/2">test</a></html>
