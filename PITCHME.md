@@ -34,11 +34,10 @@
 * **These methods are not exclusive of each other and can compliment each other!**
 * Example: reducing gene expression data to summarize the most important gene expression patterns of a dataset (unsupervised), which is then used to estimate survival (supervised).
 
-<!-- ![gene_expression](assets/images/gene_expression_regression.jpg) -->
 
-![](assets/images/gene_expression_regression.jpg | height=30%)
+![](assets/images/gene_expression_regression.jpg | height=100%)
 
-<!-- <img src="assets/images/gene_expression_regression.jpg" alt="" style="height: 10%; width: 40%; object-fit: contain;"/> -->
+
 <span style="font-family: Helvetica Neue; font-weight: bold; color:#ffffff"; font-size:9><span color:##e49436"></span> GIT Pitch</span>
 +++
 * Machine Learning Workflow
