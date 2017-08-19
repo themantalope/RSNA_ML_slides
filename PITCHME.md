@@ -28,15 +28,8 @@
 | Aims to "summarize" data  | Aims to "learn" a function between input data and output |
 | Methods to reduce dimensionality of data | Methods to train a system for prediction |
 | Clustering, Compression, Association Rules | Regression |
-
 +++
 #### Unsupervised and Supervised Learning
-| | |
-| :-------------: | :-------------: |
-| **These methods are not exclusive of each other and can compliment each other!**| <img src="assets/images/gene_expression_regression.jpg" width="100" height="100"/> |
-| Example: reducing gene expression data to summarize the most important gene expression patterns of a dataset (unsupervised), which is then used to estimate survival (supervised). | |
-
-+++
 <table style="width:100%">
   <tr>
     <td>These methods are not exclusive of each other and can compliment each other!</td>
