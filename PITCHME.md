@@ -1,6 +1,15 @@
 # Machine Learning: A Primer for Radiologists
 
 +++
+## Contents
+
+* Machine Learning Basics
+* Machine Learning Workflow
+* Commonly Used Models
+* Notes and Tips
+* Applications in Radiology
+
++++
 ### Machine Learning Basics
 * Unsupervised and Supervised
 * Bias and Variance
@@ -14,7 +23,7 @@
 
 #### Unsupervised and Supervised Learning
 
-|: Unsupervised | Supervised :|
+| Unsupervised | Supervised |
 |------------- | -------------|
 | Item One       | Item Two       |
 
