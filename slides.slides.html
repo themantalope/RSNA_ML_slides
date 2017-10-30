@@ -11853,7 +11853,7 @@ a.anchor-link {
 
 <div class="reveal">
 <div class="slides">
-<section><section><link rel="stylesheet" href="custom.css"></section></section><section><section>
+<section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -11935,16 +11935,17 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Unsupervised-and-Supervised-Learning">Unsupervised and Supervised Learning<a class="anchor-link" href="#Unsupervised-and-Supervised-Learning">&#182;</a></h4><table style="width:100%">
+<h4 id="Unsupervised-and-Supervised-Learning">Unsupervised and Supervised Learning<a class="anchor-link" href="#Unsupervised-and-Supervised-Learning">&#182;</a></h4><table>
   <tr>
     <td>These methods are not exclusive of each other and can compliment each other!</td>
-    <td rowspan="2"><img src="assets/images/gene_expression_regression.jpg" alt='gene_express'/></td>
+    <th rowspan="2" style="width:55%"><img src="assets/images/gene_expression_regression.jpg" alt='gene_express'></th>
   </tr>
   <tr>
     <td>Example: reducing gene expression data to summarize the most important gene expression patterns of a dataset (unsupervised), which is then used to estimate survival (supervised).</td>
   </tr>
 </table><footer id="attribution" style="float:left; color:#999; background:#fff;">
 <a href="#/2">Back to top</a>
+<p>Hastie T, Tibshirani R, Friedman J. The Elements of Statistical Learning, Data Mining, Inference, and Prediction. Springer Science & Business Media; 2013. Chapter 16 Page 29</p>
 </footer>
 </div>
 </div>
@@ -11954,10 +11955,23 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="High-bias-(left)-vs-high-variance-(right)">High bias (left) vs high variance (right)<a class="anchor-link" href="#High-bias-(left)-vs-high-variance-(right)">&#182;</a></h2><p><img src="assets/images/bias_var.png" alt="pic"></p>
+<h2> <center> <left> High bias </left> vs  <right> high variance </right>  </center> </h2><p><img src="assets/images/bias_var.png" alt="pic"></p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
 </div></section></section>
 </div>
 </div>
@@ -11982,9 +11996,11 @@ require(
             controls: true,
             progress: true,
             history: true,
+            width:'75%',
+            height:'80%',
 
             theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-            transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
+            transition: Reveal.getQueryHash().transition || 'page', // default/cube/page/concave/zoom/linear/none
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
