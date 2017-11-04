@@ -31,6 +31,26 @@
 </section>
 {%- endif -%}
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<style type="text/css">
+//div.output_wrapper {
+//  margin-top: 0px;
+//}
+.input_hidden {
+  display: none;
+//  margin-top: 5px;
+}
+</style>
+
+<script>
+$(document).ready(function(){
+  $(".output_wrapper").click(function(){
+      $(this).prev('.input_hidden').slideToggle();
+  });
+})
+</script>
+
 {%- endblock any_cell -%}
 
 {% block header %}
@@ -189,11 +209,11 @@ require(
             controls: true,
             progress: true,
             history: true,
-            width:'75%',
-            height:'80%',
+            width:'65%',
+            height:'75%',
 
             theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-            transition: Reveal.getQueryHash().transition || 'page', // default/cube/page/concave/zoom/linear/none
+            transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
