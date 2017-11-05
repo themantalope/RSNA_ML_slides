@@ -31,26 +31,6 @@
 </section>
 {%- endif -%}
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-<style type="text/css">
-//div.output_wrapper {
-//  margin-top: 0px;
-//}
-.input_hidden {
-  display: none;
-//  margin-top: 5px;
-}
-</style>
-
-<script>
-$(document).ready(function(){
-  $(".output_wrapper").click(function(){
-      $(this).prev('.input_hidden').slideToggle();
-  });
-})
-</script>
-
 {%- endblock any_cell -%}
 
 {% block header %}
@@ -68,6 +48,7 @@ $(document).ready(function(){
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
 
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="{{resources.reveal.url_prefix}}/css/reveal.css">
@@ -90,7 +71,11 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
+
 {{ mathjax() }}
+<script type="text/javascript"
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script
 
 <!-- Get Font-awesome from cdn -->
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
@@ -185,9 +170,17 @@ a.anchor-link {
 
 <div class="reveal">
 <div class="slides">
+
 {{ super() }}
+
+
+
+
 </div>
 </div>
+
+
+
 {% block post_slides %}
 <script>
 
