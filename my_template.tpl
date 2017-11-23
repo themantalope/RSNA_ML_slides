@@ -205,8 +205,8 @@ require(
             controls: true,
             progress: true,
             history: true,
-            width:'65%',
-            height:'75%',
+            width:'80%',
+            height:'95%',
 
             theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
             transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
