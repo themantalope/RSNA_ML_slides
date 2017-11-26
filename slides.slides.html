@@ -11,8 +11,9 @@
 
 <title>slides slides</title>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="require.js"></script>
+<script src="jquery-2.0.3.min.js"></script>
+
 
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="reveal.js/css/reveal.css">
@@ -35,6 +36,11 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
+
+<script type="text/javascript" src="MathJax-2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
 <!-- Load mathjax -->
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
@@ -56,6 +62,7 @@ if( window.location.search.match( /print-pdf/gi ) ) {
     });
     </script>
     <!-- End of mathjax configuration -->
+
 
 <!-- Get Font-awesome from cdn -->
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
@@ -11849,6 +11856,7 @@ a.anchor-link {
 
 <div class="reveal">
 <div class="slides">
+
 <section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -13308,8 +13316,15 @@ $$f(X, \beta) = \frac{1}{1+e^{-X\beta}}$$
 </div>
 </div>
 </div></section></section>
+
+
+
+
 </div>
 </div>
+
+
+
 
 <script>
 
@@ -13331,6 +13346,8 @@ require(
             controls: true,
             progress: true,
             history: true,
+            width:'80%',
+            height:'95%',
 
             theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
             transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
